@@ -1,0 +1,83 @@
+body {
+    --darkblue: #0d1117;
+    --doisblue: #181f29;
+    --vermelho: #B4061B;
+    --darkred: #2e0f17;
+    --cinza: #5a6169;
+    --branco: #c9d1d9;
+    --darkgray: #30363d;
+    background-color: var(--darkblue);
+    margin: 0;
+    padding: 20px;
+    color: var(--branco);
+}
+
+header {
+    border-bottom: 2px solid var(--darkred);
+    width: 100%;
+    height: 45px;
+    font: bold 20px Georgia, Times, serif;
+}
+
+.yourname {
+    display: inline-block;
+    margin-left: 40px;
+    color: var(--branco);
+}
+
+nav {
+    display: inline-block;
+    float: right;
+    margin-right: 60px;
+    color: var(--branco);
+}
+
+nav a:link, a:visited {
+    color: var(--branco);
+    text-decoration-line: none;
+    margin-right: 20px;
+    font-size: 18px;
+    border-bottom: 2px solid var(--darkred);
+}
+
+nav a:hover {
+    border-bottom: 1px solid var(--vermelho);
+    font-size: 20px;
+}
+
+section {
+    overflow: hidden;
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font: bold 60px Georgia, Times, serif;
+    margin-left: 80px;
+}
+
+p {
+    font: 15px Georgia, Times, serif;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: justify;
+}
+
+footer {
+    border-top: 2px solid var(--darkred);
+    width: 98%;
+    height: 45px;
+    font: 15px Georgia, Times, serif;
+    position: absolute;
+    bottom: 1px;
+    color: var(--darkgray);
+    padding: 0px;
+}
+
+footer h6 {
+    float: right;
+    position: relative;
+    margin-right: 20px;
+    margin-top: 20px;
+}
