@@ -9,7 +9,7 @@ function validar() {
     if (usuario === "admin" && senha === "adm123") {
         alert("Login realizado com sucesso!")
 
-        window.location.href = "../Projeto/home.html";
+        this.home();
     } else {
         alert("Login ou Senha estão incorretos!")
     }
@@ -17,4 +17,8 @@ function validar() {
 
 function contato(){
     window.location.href = "https://wa.me/55081997164112";
+}
+
+function home(){
+    window.location.href = "../Projeto/home.html";
 }
