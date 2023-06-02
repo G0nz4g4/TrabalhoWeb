@@ -9,16 +9,12 @@ function validar() {
     if (usuario === "admin" && senha === "adm123") {
         alert("Login realizado com sucesso!")
 
-        this.home();
+        window.location.href = "home.html";
     } else {
         alert("Login ou Senha estão incorretos!")
     }
 }
 
 function contato(){
-    window.location.href = "https://wa.me/55081997164112";
-}
-
-function home(){
-    window.location.href = "../Projeto/home.html";
+    window.location.href = "https://www.linkedin.com/in/ediclei-gonzaga/";
 }
