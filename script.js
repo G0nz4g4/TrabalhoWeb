@@ -11,7 +11,7 @@ function validar() {
 
         window.location.href = "home.html";
     } else {
-        alert("Login ou Senha estão invalidos!")
+        alert("Login ou Senha estão inválidos!")
     }
 }
 
